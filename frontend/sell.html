@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Sell a Domain — NovaDomains</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <div class="logo-mark">N</div>
+      NovaDomains
+    </div>
+
+    <nav>
+      <a href="index.html">Marketplace</a>
+      <a href="sell.html" class="active">Sell</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <div class="page">
+    <h1 class="hero-title">Sell Your Domain</h1>
+
+    <form id="sellForm" class="form">
+      <input class="input" name="domain" placeholder="Domain (example.com)" required />
+      <input class="input" name="tld" placeholder="TLD (.com)" required />
+      <input class="input" name="price" placeholder="Price" type="number" required />
+      <input class="input" name="category" placeholder="Category" />
+      <input class="input" name="traffic" placeholder="Traffic" />
+      <input class="input" name="age" placeholder="Age" />
+      <textarea class="input" name="desc" placeholder="Description"></textarea>
+
+      <button class="btn btn-primary" type="submit">Create Listing</button>
+    </form>
+  </div>
+
+  <footer class="footer">
+    © <span id="year"></span> NovaDomains
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

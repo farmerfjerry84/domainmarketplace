@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>NovaDomains — Marketplace</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <div class="logo-mark">N</div>
+      NovaDomains
+    </div>
+
+    <nav>
+      <a href="index.html" class="active">Marketplace</a>
+      <a href="sell.html">Sell</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1 class="hero-title">Premium Domains. Real Ownership.</h1>
+    <p class="hero-sub">Search, buy, sell, and manage domains with enterprise‑grade reliability.</p>
+
+    <div class="filters">
+      <input id="search" class="search-input" placeholder="Search domains…" />
+      <select id="tldFilter" class="select">
+        <option value="">All TLDs</option>
+        <option value=".com">.com</option>
+        <option value=".ai">.ai</option>
+        <option value=".io">.io</option>
+        <option value=".co">.co</option>
+      </select>
+
+      <select id="priceFilter" class="select">
+        <option value="">All Prices</option>
+        <option value="0-1000">$0–1,000</option>
+        <option value="1000-5000">$1,000–5,000</option>
+        <option value="5000-20000">$5,000–20,000</option>
+        <option value="20000+">$20,000+</option>
+      </select>
+    </div>
+  </section>
+
+  <div id="grid" class="grid"></div>
+
+  <footer class="footer">
+    © <span id="year"></span> NovaDomains — Enterprise Domain Marketplace
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

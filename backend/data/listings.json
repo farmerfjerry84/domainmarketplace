@@ -1,0 +1,24 @@
+[
+  {
+    "id": "northloop-ai",
+    "domain": "northloop.ai",
+    "tld": ".ai",
+    "price": 7800,
+    "type": "buy",
+    "category": "AI",
+    "desc": "AI • Analytics",
+    "traffic": "Moderate",
+    "age": "3 years"
+  },
+  {
+    "id": "gridfoundry-io",
+    "domain": "gridfoundry.io",
+    "tld": ".io",
+    "price": 5400,
+    "type": "auction",
+    "category": "DevTools",
+    "desc": "Developer tools",
+    "traffic": "New",
+    "age": "1 year"
+  }
+]

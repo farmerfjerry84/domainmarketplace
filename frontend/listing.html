@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Domain Listing — NovaDomains</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <div class="logo-mark">N</div>
+      NovaDomains
+    </div>
+
+    <nav>
+      <a href="index.html">Marketplace</a>
+      <a href="sell.html">Sell</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <div class="page">
+    <h1 id="domainName" class="hero-title"></h1>
+    <p id="domainCategory" class="hero-sub"></p>
+    <button id="buyNowBtn" class="btn btn-primary">Buy Now</button>
+
+    <div class="card" style="margin-top:20px;">
+      <div><strong>Price:</strong> <span id="domainPrice"></span></div>
+      <div><strong>Traffic:</strong> <span id="domainTraffic"></span></div>
+      <div><strong>Age:</strong> <span id="domainAge"></span></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    © <span id="year"></span> NovaDomains
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
